@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bookshop.xlsx
+Query=`Sales Q1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sale Date" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`" type="Date" />
+            <Field name="ISBN" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`" type="Double" />
+            <Field name="ItemID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`" type="V_String" />
+            <Field name="OrderID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bookshop.xlsx
+Query=`Sales Q2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sale Date" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`" type="Date" />
+            <Field name="ISBN" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`" type="Double" />
+            <Field name="ItemID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`" type="V_String" />
+            <Field name="OrderID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q2$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bookshop.xlsx
+Query=`Sales Q3$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sale Date" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`" type="Date" />
+            <Field name="ISBN" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`" type="Double" />
+            <Field name="ItemID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`" type="V_String" />
+            <Field name="OrderID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q3$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bookshop.xlsx
+Query=`Sales Q4$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sale Date" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`" type="Date" />
+            <Field name="ISBN" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`" type="V_String" />
+            <Field name="Discount" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`" type="Double" />
+            <Field name="ItemID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`" type="V_String" />
+            <Field name="OrderID" size="255" source="File: C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Final\Bookshop.xlsx|||`Sales Q4$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="462" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="618" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\hi\OneDrive\Desktop\Masters\Fall 2023\MGS 628 DV\Datasets\Output Bookshop.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output Bookshop.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Bookshop_data_cleanse</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4d08cf98-9aa4-4463-a6a8-e3a3826f89b8" />
+      <Telemetry>
+        <PreviousWorkflowId value="8df7692f-4358-452e-bc39-c83e1f3d4549" />
+        <OriginWorkflowId value="8df7692f-4358-452e-bc39-c83e1f3d4549" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
